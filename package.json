@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@skyway-sdk/room": "^1.4.1"
+    "@skyway-sdk/room": "^1.4.1",
+    "cli": "^1.0.1"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
