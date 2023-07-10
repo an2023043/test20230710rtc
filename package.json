@@ -1,0 +1,29 @@
+{
+  "name": "infwebrtc",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run transpile && parcel build ./src/videochat-top.html --public-url ./",
+    "dev": "parcel ./src/*",
+    "transpile": "babel src/main.ts -o src/videochat-top.js",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@skyway-sdk/room": "^1.4.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risakuroda/infWebRTC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/risakuroda/infWebRTC/issues"
+  },
+  "homepage": "https://github.com/risakuroda/infWebRTC#readme",
+  "description": ""
+}
